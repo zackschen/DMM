@@ -1,0 +1,12 @@
+.ipynb_checkpoints
+.log
+*.pyc
+output
+data
+cache
+tb_logs
+resnet101.pth
+tb_logs_backup
+npy_files
+pyutils
+pyutils/refer-parser2

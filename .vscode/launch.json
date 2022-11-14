@@ -1,0 +1,40 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "/home/chencheng/Code/DMM/tools/mas_buffer_sequence_train.py",
+            "console": "integratedTerminal",
+            "env": {"CUDA_VISIBLE_DEVICES":"2"},
+            "args": [
+                "--imdb_name","coco_minus_refer",
+                "--net_name","res101",
+                "--iters","1250000",
+                "--tag","notime",
+                "--dataset","refcocog",
+                "--splitBy","umd",
+                "--max_category_iters","150000",
+                "--max_category_epoch","1",
+                "--buffer_start_epoch","1",
+                "--with_st","1",
+                "--id","5task-DMM-debug",
+                "--f_id","5task-DMM-debug",
+                "--gdumb_size","5000",
+                "--subject_flag","1",
+                "--task","5",
+                "--buffer_type","low",
+            ]
+            // "args": ["--dataset","refcocog",
+            //     "--splitBy","umd",
+            //     "--split","train",
+            //     "--id","random",
+            //     "--task","5",
+            // ]
+        }
+    ]
+}

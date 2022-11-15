@@ -24,6 +24,17 @@ The code is implemented on https://github.com/lichengunc/MAttNet. Follow the ins
 Feel free to ping me ([cczacks@gmail.com](mailto:cczacks@gmail.com)) if you encounter trouble getting it to work!
 
 ## Bibtex
-
+```markdown
+@ARTICLE{9916159,  
+  author={Shen, Heng Tao and Chen, Cheng and Wang, Peng and Gao, Lianli and Wang, Meng and Song, Jingkuan},  
+  journal={IEEE Transactions on Image Processing},   
+  title={Continual Referring Expression Comprehension via Dual Modular Memorization},   
+  year={2022},  
+  volume={31},  
+  number={},  
+  pages={6694-6706},  
+  doi={10.1109/TIP.2022.3212317}
+}
+```
 
 
